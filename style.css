@@ -1,0 +1,39 @@
+@charset "utf-8";
+@import url("homepage.css");
+@import url("hamburger_menu.css");
+@import url("profile.css");
+@import url("modal.css");
+@import url("game.css");
+@import url("tool.css");
+
+a.link{
+    color: #0000ffcc;
+    font-size: 15px;
+    text-decoration-line: underline;
+}
+
+a.play{
+    color: #0000ffcc;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.summary{
+    color: bisque;
+    font-size: 30px;
+    text-align:center;
+}
+
+#footer{
+    text-align: center;
+    color: gray;
+    font-size: 12px;
+}
+
+#ComingSoon{
+    text-align: center;
+}
+
+#ComingSoon #contents{
+    color: gray;
+}

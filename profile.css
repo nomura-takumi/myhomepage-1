@@ -1,0 +1,76 @@
+
+
+/*--------------------プロフ--------------------*/
+
+
+#profile{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#profile .img{
+    margin-left: 60%;
+    position:absolute;
+    width:250px;
+    height:250px;
+}
+
+#profile #img:hover{
+    filter: blur(5px);
+    transform:scale(1.3, 1.3);
+    transition:0.3s all;
+}
+
+#profile #text{
+    color : white;
+    font-size:25px;
+    padding-left :17%;
+    text-align: left;
+    line-height: 50px;
+}
+
+#profile #text p{
+    display: inline;
+}
+
+#profile #text .hideInfo{
+    display: inline;
+}
+
+#profile #text #skill{
+    display: inline-block;
+    font-size: 16px;
+    margin-top:0%;
+    line-height: 20px;
+
+}
+/*--------------------寿司打--------------------*/
+
+
+#sushi_da{
+    display:flex;
+}
+
+#sushi_da #title{
+    margin-left:30%;
+    position:absolute;
+    color:white;
+    font-size: 30px;
+}
+
+#sushi_da #video{
+    margin-left: 20%;
+    width:400px;
+    height:300px;
+    margin-top :100px;
+    padding:0;
+    overflow: hidden;
+    position: relative;
+}
+
+#sushi_da #text{
+    margin-left:50px;
+    margin-top:200px;
+    font-size:16px;
+    color:white;
+}

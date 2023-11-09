@@ -1,0 +1,124 @@
+.modalOpen .img{
+    cursor:pointer;
+}
+
+.modal-window{
+    display: none;
+    position:fixed;
+    z-index: 100;
+    left:0%;
+    top:0%;
+    height:100vh;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.modal-contents{
+    background-color:#f4f4f4;
+    margin:5% auto;
+    width:60%;
+    height:75%;
+    animation-name:modalOpen;
+    animation-duration:1s;
+    color:black;
+}
+
+.modal-header{
+    background:lightblue;
+    display:flex;
+    justify-content: center;
+}
+
+.modalClose{
+    font-size: 2rem;
+    position: absolute;
+    right:20%;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+.modalClose:hover{
+    cursor:pointer;
+    background-color: red;
+}
+
+@keyframes modalOpen{
+    from{opacity:0}
+    to{opacity:1}
+}
+
+.modal-close-anim{
+    animation-name:modalCloseAnim;
+    animation-duration:0.5s;
+}
+
+@keyframes modalCloseAnim{
+    from{opacity:1}
+    to{opacity:0}
+}
+
+.modal-body{
+    display: flex;
+    padding:20px 10px 0px 10px;
+}
+
+.modal-body .text{
+    background-color: white;
+    padding:5px 0px 0% 5px;
+    width:100%;
+    height: 55vh;
+    overflow: auto;
+}
+
+.modal-body .free-text{
+    font-size: 12px;
+    margin-right:10px;
+}
+
+.modal-body .text-border{
+    border-bottom: 3px dashed rgb(184, 184, 184);
+    margin-top:5%;
+}
+
+.modal-body .info-text{
+    margin-top:5%;
+    font-size:16px;
+}
+
+.modal-body video{
+    margin-left:10px;
+    width:40%;
+    height:40%;
+    object-fit: cover;
+    right:0;
+}
+
+.modal-body .other{
+    position: fixed;
+    margin-left: 35%;
+    margin-top:17%;
+}
+
+.modal-body .other .evaluate{
+    font-size: 15%;
+}
+
+.modal-body .other .evaluate .img {
+    width:3%;
+    height:3%;
+}
+
+.modal-body .other .evaluate .img:hover {
+    filter:brightness(90%);
+    transition:0.1s;
+}
+
+.modal-body .other .download .img{
+    width:3%;
+    height:3%;
+}
+
+.evaluate{
+    color:red;
+}

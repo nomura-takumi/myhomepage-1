@@ -1,0 +1,32 @@
+#homepage{
+    display: flex;
+}
+
+input.UpdateButton{
+    margin-left:10%;
+    width:50px;
+    height:30px;
+    font-size: 10px;
+    z-index: 98;
+}
+
+#LastUpdated{
+    color: rgb(231, 33, 33);
+    font-size: 12px;
+    padding-left: 17%;
+    position: absolute;
+}
+
+#RealTimeClock{
+    position:absolute;
+    padding-top:6px;
+    padding-left:16.8%;
+}
+
+input.HideInfoButton{
+    margin-left:-4.15%;
+    margin-top:-3%;
+    width:50px;
+    height:20px;
+    z-index: 98;
+}
